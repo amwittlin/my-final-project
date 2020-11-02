@@ -12,6 +12,7 @@ ul {
 li {
   list-style: none;
   line-height: 19px;
+  text-transform: capitalize;
   margin: 0;
   padding: 0;
 }
