@@ -24,7 +24,7 @@ li:first-letter {
 }
 
 .case {
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-image: linear-gradient(-225deg, #a8bfff 0%, #884d80 100%);
   border: 1px solid gray;
   padding: 20px;
   border-radius: 5px;
@@ -50,4 +50,13 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -36px;
+}
+
+.weather-temperature .active {
+  color: #000000;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
