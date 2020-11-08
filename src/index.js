@@ -62,7 +62,6 @@ celsiusTemperature = response.data.main.temp;
 function showForecast(response){
   let forecastElement = document.querySelector("#forecast");
   let forecast = response.data.list[0];
-  
   forecastElement.innerHTML = `<div class="col-2">
         <h2>
             ${formatHours(forecast.dt * 1000)}
@@ -175,6 +174,7 @@ function displayCelsius(event){
     temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+
 let celsiusTemperature = null;
 
 let form = document.querySelector("#search-form");
@@ -185,6 +185,5 @@ fahrenheitLink.addEventListener("click", displayFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsius);
-
 
 search("Switzerland");

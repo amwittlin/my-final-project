@@ -1,5 +1,6 @@
 body {
   font-family: "Nunito", sans-serif;
+  color: #fff;
 }
 h1 {
   font-size: 30px;
@@ -15,6 +16,10 @@ li {
   margin: 0;
   padding: 0;
 }
+small {
+  color: #6c757d;
+}
+
 li:first-letter {
   text-transform: capitalize;
 }
@@ -55,6 +60,7 @@ li:first-letter {
 .weather-temperature .active {
   color: #000000;
   cursor: default;
+  color: #fff;
 }
 
 .weather-temperature .active:hover {
